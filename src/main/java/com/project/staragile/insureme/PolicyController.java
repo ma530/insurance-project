@@ -40,5 +40,15 @@ public class PolicyController {
 		return policyService.getPolicyDetails(policyId);
 	}
 	
+//	@GetMapping("/updatePolicy/{policy id}")
+//	public Policy getPolicyUpdate(@PathVariable(value="policyId") int policyId) {
+//		return policyService.getPolicyDetails(policyId);
+//	}
+//	
+//	@GetMapping("/deletePolicy/{policyid}")
+//	public Policy getPolicyDelete(@PathVariable(value="policyId") int policyId) {
+//		return policyService.getPolicyDetails(policyId);
+//	}
+//	
 }
 
